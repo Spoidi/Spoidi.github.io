@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f0ff;
+    color: #333;
+  }
+  
+  header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #6a11cb;
+  }
+  
+  footer {
+    background-color: #dcd3ff;
+    font-style: italic;
+  }
+  
+  .sombra {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .estilo-carrusel {
+    background-color: rgba(0, 0, 0, 0.6); /* fondo oscuro semitransparente */
+    border-radius: 12px;
+    padding: 15px;
+    color: #fff; /* texto blanco */
+    text-shadow: 1px 1px 3px #000;
+  }
+  
+  .estilo-carrusel h5 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ff2da0; /* fucsia o el color que quieras resaltar */
+  }
+  
+  .estilo-carrusel p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
