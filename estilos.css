@@ -41,3 +41,14 @@ body {
     font-size: 1.1rem;
     font-weight: 500;
   }
+
+  .list-group-item {
+    transition: background-color 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .list-group-item:hover {
+    background-color: #eecdffd6; /* color suave tipo iluminado */
+    box-shadow: 0 0 15px rgba(63, 181, 255, 0.875); /* brillo dorado */
+  }
+  
